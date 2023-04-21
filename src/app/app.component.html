@@ -1,25 +1,7 @@
-<div class="chatsElement">
-  <mat-card-header style="color: aliceblue; text-align: center;"> Chat room</mat-card-header>
-<mat-card *ngFor="let messages of messageList">
-  <mat-card-header>
-  <mat-card-title>{{messages.data.user}}</mat-card-title>
-  <mat-card-subtitle>{{messages.data.timestamp.seconds * 1000 | date:'yyyy/MM/dd h:mm:ss a'}}</mat-card-subtitle>
-  </mat-card-header>
-  <mat-card-content>
-  <p>{{messages.data.messageContent}}</p>
-  </mat-card-content>
-  <mat-card-actions>
-    <button class="actionButtons">EDIT</button>
-    <button class="actionButtons">DELETE</button>
-  </mat-card-actions>
-</mat-card>
+<div *ngIf="fireService.auth.currentUser==undefined">
+  <app-login></app-login>
 </div>
 
-<<div class="messageElement">
-<mat-form-field appearance="fill">
-  <textarea autosize matInput [(ngModel)]="sendThisMessage" placeholder="Write your message here" maxlength="256"></textarea>
-</mat-form-field>
-
-<button mat-raised-button *ngIf="sendMessage.length>0" (click)="sendMessage(sendThisMessage)">SEND MESSAGE</button>
+<div *ngIf="fireService.auth.currentUser">
+  <app-chat-room></app-chat-room>
 </div>
->

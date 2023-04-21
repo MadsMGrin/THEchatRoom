@@ -1,0 +1,52 @@
+mat-card{
+  margin: 5px;
+  padding: 10px;
+  background-color: #292929;
+  border-radius: 5px;
+  text-align: center;
+  color: aliceblue;
+}
+
+mat-card-content{
+  display: flex;
+  justify-content: left;
+  align-items: start;
+}
+
+mat-card-header{
+  display: block;
+}
+
+.chatsElement {
+  background-color: #1F1F1F;
+  margin: 0 auto;
+  padding: 20px 50px 20px 50px;
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.actionButtons{
+  padding: 5px;
+  display: inline-block;
+  background-color: #333333;
+  text-align: center;
+  color: aliceblue;
+}
+
+mat-form-field{
+  color: aliceblue;
+}
+
+.messageElement{
+  background-color: #1F1F1F;
+  margin: 0 auto;
+  padding: 20px 50px 20px 50px;
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.bottomButtons{
+  margin: 5px;
+}

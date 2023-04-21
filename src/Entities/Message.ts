@@ -1,6 +1,6 @@
 export class Message {
-  id?: string;
-  user?: string;
+  user?: any;
   messageContent?: string;
   timestamp?: Date;
+  email?: any;
 }
