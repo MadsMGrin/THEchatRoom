@@ -9,10 +9,14 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import {MatCardModule} from "@angular/material/card";
 import {MatButtonModule} from "@angular/material/button";
 import {AutosizeModule} from "ngx-autosize";
+import { LoginComponent } from './login/login.component';
+import { ChatRoomComponent } from './chat-room/chat-room.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    LoginComponent,
+    ChatRoomComponent,
   ],
   imports: [
     BrowserModule,

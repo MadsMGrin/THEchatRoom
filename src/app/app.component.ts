@@ -17,6 +17,11 @@ export class AppComponent implements OnInit{
 
   async ngOnInit() {
     await this.getMessage();
+    this.fireService.auth.onAuthStateChanged((user) => {
+      if(user) {
+        this.getMessage();
+      }
+    });
   }
 
   async getMessage(){
