@@ -11,6 +11,7 @@ This project is from the Fourth Semester Fullstack course. This is the class cou
 - Chatroom should have emojis.
 - A sort of profile. (Rework signup).
 - Private chatting.
+```
 
 ## References used.
 
