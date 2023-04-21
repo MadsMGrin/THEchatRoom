@@ -1,6 +1,6 @@
-# A working chat room.
+# THEchatRoom.
 
-This project is from the Fourth Semester Fullstack course. This is the class course project with my own twist.
+This project is from the Fourth Semester Fullstack course. This is the follow along class course project with my own twist.
 
 ## Features to come by priority (OR NOT).
 
