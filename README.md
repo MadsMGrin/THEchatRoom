@@ -1,8 +1,8 @@
-# THEchatRoom.
+# THEchatRoom
 
 This project is from the Fourth Semester Fullstack course. This is the follow along class course project with my own twist.
 
-## Features to come by priority (OR NOT).
+## Features to come by priority (OR NOT)
 
 ```python
 - Chatroom should have pictures.
@@ -13,6 +13,6 @@ This project is from the Fourth Semester Fullstack course. This is the follow al
 - Private chatting.
 ```
 
-## References used.
+## References used
 
 [Alex Uldahl](https://www.youtube.com/@alexuldahl2685)
